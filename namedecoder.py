@@ -51,8 +51,6 @@ class Solution:
                 id_new += id[i]
             elif id[i] == "0" and id[i - 1] != "0":
                 count += 1
-            
-            id = id[1:]
         
         return "First name = " + first + ", Last name = " + last + ", id = " + id_new
 
