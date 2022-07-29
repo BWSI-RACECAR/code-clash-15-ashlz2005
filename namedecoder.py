@@ -45,7 +45,7 @@ class Solution:
         for i in range(len(id)):
             if id[i] != "0" and count == 0:
                 first += id[i]
-            elif id[i] != "0" and count == 1:
+            elif id[i] != "0" and count == 1 and id[i].isdigit() == False:
                 last += id[i]
             elif id[i] != "0":
                 id_new += id[i]
